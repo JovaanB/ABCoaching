@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'bienvenujovan@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,12 +67,12 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
+      name: 'instagram',
       url: '',
     },
     {
       id: uuidv1(),
-      name: 'codepen',
+      name: 'facebook',
       url: '',
     },
     {
@@ -80,15 +80,5 @@ export const footerData = {
       name: 'linkedin',
       url: '',
     },
-    {
-      id: uuidv1(),
-      name: 'github',
-      url: '',
-    },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };

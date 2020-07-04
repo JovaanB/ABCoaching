@@ -8,6 +8,7 @@ import Footer from './Footer/Footer';
 import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import '../style/styles.css';
 
 function App() {
   const [hero, setHero] = useState({});
