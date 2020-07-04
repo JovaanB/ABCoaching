@@ -15,7 +15,7 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || "T'as besoin de moi ou juste envie de me parler ?"}
+              {cta || "Besoin d'un programme ou plus d'informations ?"}
             </p>
             <a
               target="_blank"
