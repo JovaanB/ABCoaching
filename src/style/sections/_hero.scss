@@ -25,42 +25,28 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 4vw;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
     padding: 15px;
     border-radius: 20px;
 
-    @include respond(tab-land) {
-      font-size: 4rem;
-    }
     @include respond(tab-port) {
-      font-size: 3.6rem;
-      text-align: center;
-      font-size: 3rem;
-      line-height: 1.5;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 10vw;
+      font-size: 3.5vw;
     }
+
+    @include respond(tab-land) {
+      font-size: 3.5rem;
+    }
+
     @include respond(phone-xs) {
-      font-size: 2.8rem;
+      font-size: 3.5rem;
     }
   }
 
   .hero-cta {
     display: flex;
-
-    @include respond(tab-port) {
-      justify-content: center;
-      font-size: 2rem;
-      margin: 0;
-      position: absolute;
-      top: 20vh;
-      left: 13vw;
-    }
 
     & a {
       font-size: 2.4rem;
@@ -69,6 +55,8 @@
 }
 
 .left-section {
+  min-width: 280px;
+  min-height: 480px;
   width: 30vw;
   height: 100vh;
   background-color: azure;
@@ -78,11 +66,4 @@
   padding: 0rem 5.6rem;
   border-radius: 5%;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-
-  @include respond(tab-port) {
-    position: absolute;
-    height: 30vh;
-    width: 100vw;
-    top: 70vh;
-  }
 }
