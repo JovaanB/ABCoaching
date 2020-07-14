@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/ABCoaching',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
